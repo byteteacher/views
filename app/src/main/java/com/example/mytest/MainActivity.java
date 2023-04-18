@@ -1,14 +1,14 @@
 package com.example.mytest;
 
-import android.graphics.Color;
-import android.util.Log;
-import android.widget.CompoundButton;
+import android.content.Intent;
+import android.view.View;
 
 import com.byteteacher.library.base.BaseActivity;
+import com.example.mytest.activity.MaxHeightRecyclerviewTestActivity;
 import com.example.viewtest.R;
 
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     private static final String TAG = "cj";
 
@@ -22,16 +22,14 @@ public class MainActivity extends BaseActivity {
     protected void initView() {
 
 
-
-    }
-
-    /**
-     * dp 转 px(像素)
-     */
-    public int dp2px(float dpValue) {
-        final float scale = getResources().getDisplayMetrics().density;
-        return (int) (dpValue * scale + 0.5f);
     }
 
 
+    @Override
+    public void onClick(View v) {
+        int id = v.getId();
+        if (id == R.id.bt_start) {
+            startActivity(new Intent(this, MaxHeightRecyclerviewTestActivity.class));
+        }
+    }
 }

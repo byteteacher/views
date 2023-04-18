@@ -15,4 +15,11 @@
         android:textAllCaps="false"/>
 
 
+    <com.byteteacher.library.view.MaxHeightRecyclerView
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/rv_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:maxHeight="200dp"/>
+
 </LinearLayout>
