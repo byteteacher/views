@@ -15,14 +15,4 @@
         android:text="" />
 
 
-    <com.byteteacher.library.SwitchView
-        android:id="@+id/myswitch"
-        android:layout_width="wrap_content"
-        app:thumbSize="26dp"
-        app:thumbColor="#FFF"
-        app:trackViewUncheckedColor="#626260"
-        app:trackViewCheckedColor="#14C893"
-        app:checked="true"
-        android:layout_height="wrap_content"/>
-
 </LinearLayout>
