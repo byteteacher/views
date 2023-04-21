@@ -1,10 +1,10 @@
-package com.example.mytest.activity;
+package com.example.mytest.maxheightrecyclerview;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.byteteacher.library.base.BaseActivity;
 import com.byteteacher.library.view.MaxHeightRecyclerView;
-import com.example.mytest.adapter.MaxHeightAdapter;
+import com.example.mytest.maxheightrecyclerview.MaxHeightAdapter;
 import com.example.viewtest.R;
 
 

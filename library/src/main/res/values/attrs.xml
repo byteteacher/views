@@ -5,4 +5,9 @@
         <attr name="maxHeight" format="dimension" />
     </declare-styleable>
 
+    <declare-styleable name="TitleView">
+        <attr name="titleName" format="string"/>
+
+    </declare-styleable>
+
 </resources>

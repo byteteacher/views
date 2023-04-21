@@ -14,5 +14,13 @@
         android:text="MaxHeightRecyclerview"
         android:textAllCaps="false"/>
 
+    <Button
+        android:id="@+id/bt_title_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:text="TitleView"
+        android:textAllCaps="false"/>
+
 
 </LinearLayout>

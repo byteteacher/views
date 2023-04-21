@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.mytest.activity.MaxHeightRecyclerviewTestActivity"/>
+        <activity android:name="com.example.mytest.maxheightrecyclerview.MaxHeightRecyclerviewTestActivity"/>
     </application>
 
 </manifest>

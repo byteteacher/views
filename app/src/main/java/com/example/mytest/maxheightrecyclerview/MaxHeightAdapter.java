@@ -1,4 +1,4 @@
-package com.example.mytest.adapter;
+package com.example.mytest.maxheightrecyclerview;
 
 import android.content.Context;
 import android.view.LayoutInflater;

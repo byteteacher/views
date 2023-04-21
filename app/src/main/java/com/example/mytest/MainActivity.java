@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.view.View;
 
 import com.byteteacher.library.base.BaseActivity;
-import com.example.mytest.activity.MaxHeightRecyclerviewTestActivity;
+import com.example.mytest.maxheightrecyclerview.MaxHeightRecyclerviewTestActivity;
 import com.example.viewtest.R;
 
 
@@ -31,5 +31,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         if (id == R.id.bt_start) {
             startActivity(new Intent(this, MaxHeightRecyclerviewTestActivity.class));
         }
+        if (id == R.id.bt_title_view) {
+            startActivity(new Intent(this, MaxHeightRecyclerviewTestActivity.class));
+        }
+
     }
 }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+
+    <ImageView
+        android:id="@+id/iv_title_left"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:src="@drawable/ic_back_white"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:text="现场应用管理平台就是第你八九是的的基督教"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+
+    <ImageView
+        android:id="@+id/iv_title_right"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:minWidth="48dp"
+        android:paddingRight="15dp"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:visibility="gone" />
+</RelativeLayout>
